@@ -7,8 +7,11 @@ GET /api/players - returns the list of all players.
 GET /api/players/{playerID} - returns a single player by ID.
 
 The service is dockerized and can be built from the Dockerfile path with the following command
+
 docker build -t player-assignment .
+
 In order to run the docker image 
+
 docker run -p 8080:8080 player-assignment
 
 Given more time I would do the following improvements
