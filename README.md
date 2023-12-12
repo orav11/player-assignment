@@ -14,4 +14,7 @@ docker run -p 8080:8080 player-assignment
 Given more time I would do the following improvements
 1. Pagination - in order to improve the performance of retrieving all the players list 
 2. Assuming that the project will be enhanced authentication/autherization should be added 
-3. Adding more tests integration tests
+3. Adding more tests
+4. Adding more logging
+5. Adding additional handling for the cache, for example expiration time for each entry
+6. Handling failures, more specific exception catching rather than global exception handling
