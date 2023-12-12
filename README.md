@@ -1,4 +1,4 @@
-# player-assignment
+# Player-assignment
 
 This service utilizes Java 17 and Spring Boot 3 to provide a REST API serving the contents of the player.csv file
 The service exposes two REST endpoints:
