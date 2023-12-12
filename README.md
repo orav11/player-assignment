@@ -6,6 +6,9 @@ The service exposes two REST endpoints:
 GET /api/players - returns the list of all players.
 GET /api/players/{playerID} - returns a single player by ID.
 
+These APIs can be explored via swagger
+http://localhost:8080/swagger-ui/index.html
+
 The service is dockerized and can be built from the Dockerfile path with the following command
 
 docker build -t player-assignment .
