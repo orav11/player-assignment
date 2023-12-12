@@ -14,6 +14,7 @@ In order to run the docker image
 
 docker run -p 8080:8080 player-assignment
 
+
 Given more time I would do the following improvements
 1. Pagination - in order to improve the performance of retrieving all the players list 
 2. Assuming that the project will be enhanced authentication/autherization should be added 
